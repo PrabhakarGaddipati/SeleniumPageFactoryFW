@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [suite1]">
+  <listeners>
+    <listener class-name="com.altisource.framework.ListenerClass"/>
+  </listeners>
+  <test name="SuitName-Project(failed)" preserve-order="true">
+    <classes>
+      <class name="com.altisource.test.MPT_APIcallTest">
+        <methods>
+          <include name="setUpRestAssured"/>
+          <include name="getProjectDetails"/>
+        </methods>
+      </class> <!-- com.altisource.test.MPT_APIcallTest -->
+    </classes>
+  </test> <!-- SuitName-Project(failed) -->
+</suite> <!-- Failed suite [suite1] -->

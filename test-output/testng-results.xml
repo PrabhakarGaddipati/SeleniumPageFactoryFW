@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="35335" started-at="2018-10-28T18:19:49Z" finished-at="2018-10-28T18:20:25Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="35335" started-at="2018-10-28T18:19:49Z" finished-at="2018-10-28T18:20:25Z">
+      <class name="com.mpt.ui.testcase.HomePageTest">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.mpt.ui.testcase.HomePageTest@33723e30]" name="setUp" is-config="true" duration-ms="17029" started-at="2018-10-28T18:19:50Z" finished-at="2018-10-28T18:20:07Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="validateLogo()[pri:1, instance:com.mpt.ui.testcase.HomePageTest@33723e30]" name="validateLogo" duration-ms="5459" started-at="2018-10-28T18:20:07Z" description="Check logo" finished-at="2018-10-28T18:20:12Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateLogo -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.mpt.ui.testcase.HomePageTest@33723e30]" name="tearDown" is-config="true" duration-ms="798" started-at="2018-10-28T18:20:12Z" finished-at="2018-10-28T18:20:13Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.mpt.ui.testcase.HomePageTest@33723e30]" name="setUp" is-config="true" duration-ms="11201" started-at="2018-10-28T18:20:13Z" finished-at="2018-10-28T18:20:24Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="validateTitle()[pri:2, instance:com.mpt.ui.testcase.HomePageTest@33723e30]" name="validateTitle" duration-ms="24" started-at="2018-10-28T18:20:24Z" description="check title" finished-at="2018-10-28T18:20:24Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateTitle -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.mpt.ui.testcase.HomePageTest@33723e30]" name="tearDown" is-config="true" duration-ms="749" started-at="2018-10-28T18:20:24Z" finished-at="2018-10-28T18:20:25Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.mpt.ui.testcase.HomePageTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

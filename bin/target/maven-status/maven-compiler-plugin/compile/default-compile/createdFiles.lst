@@ -1,0 +1,8 @@
+com\altisource\framework\ExcelReader.class
+com\altisource\framework\generateReport.class
+com\altisource\framework\EnvironmentUtils.class
+com\altisource\framework\Util.class
+com\altisource\framework\ListenerClass.class
+com\altisource\framework\TestBaseClass.class
+com\altisource\framework\CustomLogFilter.class
+com\altisource\framework\ExceptionClass.class

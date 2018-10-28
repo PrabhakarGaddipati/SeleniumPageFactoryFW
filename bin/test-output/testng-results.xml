@@ -1,0 +1,1688 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="25" passed="25">
+  <reporter-output>
+    <line>
+      <![CDATA[Executing Test for the Processing:-Order Review&Title Search senario<br>]]>
+    </line>
+    <line>
+      <![CDATA[Executing Test for the Processing:-Examine Title senario<br>]]>
+    </line>
+    <line>
+      <![CDATA[Executing Test for the Processing:-Title Curative senario<br>]]>
+    </line>
+    <line>
+      <![CDATA[Executing Test for the Processing:-Sub Approval senario<br>]]>
+    </line>
+    <line>
+      <![CDATA[Executing Test for the Processing:-Sub Requirements senario<br>]]>
+    </line>
+    <line>
+      <![CDATA[Executing Test for the Processing:-Sub Ordered senario<br>]]>
+    </line>
+    <line>
+      <![CDATA[Executing Test for the Processing:-RR-Subordination Escrow senario<br>]]>
+    </line>
+    <line>
+      <![CDATA[Executing Test for the Closing:-Clear to Close senario<br>]]>
+    </line>
+    <line>
+      <![CDATA[Executing Test for the Closing:-Signing Request senario<br>]]>
+    </line>
+    <line>
+      <![CDATA[Executing Test for the Closing:-Signing Appt senario<br>]]>
+    </line>
+    <line>
+      <![CDATA[Executing Test for the Closing:-Loan Docs senario<br>]]>
+    </line>
+    <line>
+      <![CDATA[Executing Test for the Closing:-HUD Approval senario<br>]]>
+    </line>
+    <line>
+      <![CDATA[Executing Test for the Closing:-Loan Package senario<br>]]>
+    </line>
+    <line>
+      <![CDATA[Executing Test for the Funding:-Awaiting signed docs senario<br>]]>
+    </line>
+    <line>
+      <![CDATA[Executing Test for the Funding:-Docs Uploaded senario<br>]]>
+    </line>
+    <line>
+      <![CDATA[Executing Test for the Funding:-Critical Funding Docs senario<br>]]>
+    </line>
+    <line>
+      <![CDATA[Executing Test for the Funding:-Lender Funds senario<br>]]>
+    </line>
+    <line>
+      <![CDATA[Executing Test for the Funding:-Disbursement Complete senario<br>]]>
+    </line>
+    <line>
+      <![CDATA[Executing Test for the Final Docs:-Final Docs Review senario<br>]]>
+    </line>
+    <line>
+      <![CDATA[Executing Test for the Final Docs:-Final CD senario<br>]]>
+    </line>
+    <line>
+      <![CDATA[Executing Test for the Final Docs:-Upload & Send Final Closing statement senario<br>]]>
+    </line>
+    <line>
+      <![CDATA[Executing Test for the Final Docs:-Update recording fees & generate Final Statement senario<br>]]>
+    </line>
+    <line>
+      <![CDATA[Executing Test for the Final Docs:-Release to Record senario<br>]]>
+    </line>
+    <line>
+      <![CDATA[Executing Test for the Final Docs:-Recording Confirmed senario<br>]]>
+    </line>
+    <line>
+      <![CDATA[Executing Test for the Final Docs:-Policy Distributed senario<br>]]>
+    </line>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="1259218" started-at="2017-12-29T10:41:19Z" finished-at="2017-12-29T11:02:18Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="1259218" started-at="2017-12-29T10:41:19Z" finished-at="2017-12-29T11:02:18Z">
+      <class name="com.altisource.MPT_RefinanceTest.MptRefinanceTests">
+        <test-method status="PASS" signature="runMptRefinanceTitleNEscrowTest(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.altisource.MPT_RefinanceTest.MptRefinanceTests@31610302]" name="runMptRefinanceTitleNEscrowTest" duration-ms="36318" started-at="2017-12-29T16:11:19Z" data-provider="createRefinanceTitleNEscrowTestData" finished-at="2017-12-29T16:11:56Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Processing:-Order Review&Title Search]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[L1-QA-CA-]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[616840]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[2]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[220909]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[17]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[128]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[59]]>
+              </value>
+            </param>
+            <param index="8">
+              <value>
+                <![CDATA[1522, 1523]]>
+              </value>
+            </param>
+            <param index="9">
+              <value>
+                <![CDATA[1733990]]>
+              </value>
+            </param>
+            <param index="10">
+              <value>
+                <![CDATA[Title Search]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Executing Test for the Processing:-Order Review&Title Search senario<br>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- runMptRefinanceTitleNEscrowTest -->
+        <test-method status="PASS" signature="runMptRefinanceTitleNEscrowTest(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.altisource.MPT_RefinanceTest.MptRefinanceTests@31610302]" name="runMptRefinanceTitleNEscrowTest" duration-ms="35000" started-at="2017-12-29T16:11:56Z" data-provider="createRefinanceTitleNEscrowTestData" finished-at="2017-12-29T16:12:31Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Processing:-Examine Title]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[L1-QA-CA-]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[616840]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[2]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[220909]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[17]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[128]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[59]]>
+              </value>
+            </param>
+            <param index="8">
+              <value>
+                <![CDATA[1522, 1523, 4120]]>
+              </value>
+            </param>
+            <param index="9">
+              <value>
+                <![CDATA[1733991]]>
+              </value>
+            </param>
+            <param index="10">
+              <value>
+                <![CDATA[Examine Title]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Executing Test for the Processing:-Examine Title senario<br>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- runMptRefinanceTitleNEscrowTest -->
+        <test-method status="PASS" signature="runMptRefinanceTitleNEscrowTest(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.altisource.MPT_RefinanceTest.MptRefinanceTests@31610302]" name="runMptRefinanceTitleNEscrowTest" duration-ms="37121" started-at="2017-12-29T16:12:31Z" data-provider="createRefinanceTitleNEscrowTestData" finished-at="2017-12-29T16:13:08Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Processing:-Title Curative]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[L1-QA-CA-]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[616840]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[2]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[220909]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[17]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[128]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[59]]>
+              </value>
+            </param>
+            <param index="8">
+              <value>
+                <![CDATA[1522, 1523, 4120, 4945]]>
+              </value>
+            </param>
+            <param index="9">
+              <value>
+                <![CDATA[1733992]]>
+              </value>
+            </param>
+            <param index="10">
+              <value>
+                <![CDATA[Title Curative]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Executing Test for the Processing:-Title Curative senario<br>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- runMptRefinanceTitleNEscrowTest -->
+        <test-method status="PASS" signature="runMptRefinanceTitleNEscrowTest(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.altisource.MPT_RefinanceTest.MptRefinanceTests@31610302]" name="runMptRefinanceTitleNEscrowTest" duration-ms="37968" started-at="2017-12-29T16:13:08Z" data-provider="createRefinanceTitleNEscrowTestData" finished-at="2017-12-29T16:13:46Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Processing:-Sub Approval]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[L1-QA-CA-]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[616840]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[2]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[220909]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[17]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[128]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[59]]>
+              </value>
+            </param>
+            <param index="8">
+              <value>
+                <![CDATA[1522, 1523, 4120, 4945, 3921]]>
+              </value>
+            </param>
+            <param index="9">
+              <value>
+                <![CDATA[1733993]]>
+              </value>
+            </param>
+            <param index="10">
+              <value>
+                <![CDATA[Sub Approval]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Executing Test for the Processing:-Sub Approval senario<br>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- runMptRefinanceTitleNEscrowTest -->
+        <test-method status="PASS" signature="runMptRefinanceTitleNEscrowTest(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.altisource.MPT_RefinanceTest.MptRefinanceTests@31610302]" name="runMptRefinanceTitleNEscrowTest" duration-ms="40547" started-at="2017-12-29T16:13:46Z" data-provider="createRefinanceTitleNEscrowTestData" finished-at="2017-12-29T16:14:26Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Processing:-Sub Requirements]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[L1-QA-CA-]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[616840]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[2]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[220909]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[17]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[128]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[59]]>
+              </value>
+            </param>
+            <param index="8">
+              <value>
+                <![CDATA[1522, 1523, 4120, 4945, 3921, 3339]]>
+              </value>
+            </param>
+            <param index="9">
+              <value>
+                <![CDATA[1733994]]>
+              </value>
+            </param>
+            <param index="10">
+              <value>
+                <![CDATA[Sub Requirements]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Executing Test for the Processing:-Sub Requirements senario<br>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- runMptRefinanceTitleNEscrowTest -->
+        <test-method status="PASS" signature="runMptRefinanceTitleNEscrowTest(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.altisource.MPT_RefinanceTest.MptRefinanceTests@31610302]" name="runMptRefinanceTitleNEscrowTest" duration-ms="40777" started-at="2017-12-29T16:14:26Z" data-provider="createRefinanceTitleNEscrowTestData" finished-at="2017-12-29T16:15:07Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Processing:-Sub Ordered]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[L1-QA-CA-]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[616840]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[2]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[220909]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[17]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[128]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[59]]>
+              </value>
+            </param>
+            <param index="8">
+              <value>
+                <![CDATA[1522, 1523, 4120, 4945, 3921, 3339, 1535]]>
+              </value>
+            </param>
+            <param index="9">
+              <value>
+                <![CDATA[1733995]]>
+              </value>
+            </param>
+            <param index="10">
+              <value>
+                <![CDATA[Sub Ordered]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Executing Test for the Processing:-Sub Ordered senario<br>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- runMptRefinanceTitleNEscrowTest -->
+        <test-method status="PASS" signature="runMptRefinanceTitleNEscrowTest(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.altisource.MPT_RefinanceTest.MptRefinanceTests@31610302]" name="runMptRefinanceTitleNEscrowTest" duration-ms="41796" started-at="2017-12-29T16:15:07Z" data-provider="createRefinanceTitleNEscrowTestData" finished-at="2017-12-29T16:15:49Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Processing:-RR-Subordination Escrow]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[L1-QA-CA-]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[616840]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[2]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[220909]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[17]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[128]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[59]]>
+              </value>
+            </param>
+            <param index="8">
+              <value>
+                <![CDATA[1522, 1523, 4120, 4945, 3921, 3339, 1535, 5778]]>
+              </value>
+            </param>
+            <param index="9">
+              <value>
+                <![CDATA[1733996]]>
+              </value>
+            </param>
+            <param index="10">
+              <value>
+                <![CDATA[RR-Subordination Escrow]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Executing Test for the Processing:-RR-Subordination Escrow senario<br>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- runMptRefinanceTitleNEscrowTest -->
+        <test-method status="PASS" signature="runMptRefinanceTitleNEscrowTest(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.altisource.MPT_RefinanceTest.MptRefinanceTests@31610302]" name="runMptRefinanceTitleNEscrowTest" duration-ms="43351" started-at="2017-12-29T16:15:49Z" data-provider="createRefinanceTitleNEscrowTestData" finished-at="2017-12-29T16:16:32Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Closing:-Clear to Close]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[L1-QA-CA-]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[616840]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[2]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[220909]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[17]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[128]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[59]]>
+              </value>
+            </param>
+            <param index="8">
+              <value>
+                <![CDATA[1522, 1523, 4120, 4945, 3921, 3339, 1535, 5778, 1539]]>
+              </value>
+            </param>
+            <param index="9">
+              <value>
+                <![CDATA[1733996]]>
+              </value>
+            </param>
+            <param index="10">
+              <value>
+                <![CDATA[Clear to Close]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Executing Test for the Closing:-Clear to Close senario<br>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- runMptRefinanceTitleNEscrowTest -->
+        <test-method status="PASS" signature="runMptRefinanceTitleNEscrowTest(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.altisource.MPT_RefinanceTest.MptRefinanceTests@31610302]" name="runMptRefinanceTitleNEscrowTest" duration-ms="44705" started-at="2017-12-29T16:16:32Z" data-provider="createRefinanceTitleNEscrowTestData" finished-at="2017-12-29T16:17:17Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Closing:-Signing Request]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[L1-QA-CA-]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[616840]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[2]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[220909]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[17]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[128]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[59]]>
+              </value>
+            </param>
+            <param index="8">
+              <value>
+                <![CDATA[1522, 1523, 4120, 4945, 3921, 3339, 1535, 5778, 1539, 3760]]>
+              </value>
+            </param>
+            <param index="9">
+              <value>
+                <![CDATA[1733996]]>
+              </value>
+            </param>
+            <param index="10">
+              <value>
+                <![CDATA[Signing Request]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Executing Test for the Closing:-Signing Request senario<br>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- runMptRefinanceTitleNEscrowTest -->
+        <test-method status="PASS" signature="runMptRefinanceTitleNEscrowTest(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.altisource.MPT_RefinanceTest.MptRefinanceTests@31610302]" name="runMptRefinanceTitleNEscrowTest" duration-ms="45787" started-at="2017-12-29T16:17:17Z" data-provider="createRefinanceTitleNEscrowTestData" finished-at="2017-12-29T16:18:03Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Closing:-Signing Appt]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[L1-QA-CA-]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[616840]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[2]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[220909]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[17]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[128]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[59]]>
+              </value>
+            </param>
+            <param index="8">
+              <value>
+                <![CDATA[1522, 1523, 4120, 4945, 3921, 3339, 1535, 5778, 1539, 3760, 4617]]>
+              </value>
+            </param>
+            <param index="9">
+              <value>
+                <![CDATA[1733996]]>
+              </value>
+            </param>
+            <param index="10">
+              <value>
+                <![CDATA[Signing Appt]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Executing Test for the Closing:-Signing Appt senario<br>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- runMptRefinanceTitleNEscrowTest -->
+        <test-method status="PASS" signature="runMptRefinanceTitleNEscrowTest(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.altisource.MPT_RefinanceTest.MptRefinanceTests@31610302]" name="runMptRefinanceTitleNEscrowTest" duration-ms="47246" started-at="2017-12-29T16:18:03Z" data-provider="createRefinanceTitleNEscrowTestData" finished-at="2017-12-29T16:18:50Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Closing:-Loan Docs]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[L1-QA-CA-]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[616840]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[2]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[220909]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[17]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[128]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[59]]>
+              </value>
+            </param>
+            <param index="8">
+              <value>
+                <![CDATA[1522, 1523, 4120, 4945, 3921, 3339, 1535, 5778, 1539, 3760, 4617, 6338]]>
+              </value>
+            </param>
+            <param index="9">
+              <value>
+                <![CDATA[1733996]]>
+              </value>
+            </param>
+            <param index="10">
+              <value>
+                <![CDATA[Loan Docs]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Executing Test for the Closing:-Loan Docs senario<br>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- runMptRefinanceTitleNEscrowTest -->
+        <test-method status="PASS" signature="runMptRefinanceTitleNEscrowTest(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.altisource.MPT_RefinanceTest.MptRefinanceTests@31610302]" name="runMptRefinanceTitleNEscrowTest" duration-ms="48539" started-at="2017-12-29T16:18:50Z" data-provider="createRefinanceTitleNEscrowTestData" finished-at="2017-12-29T16:19:39Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Closing:-HUD Approval]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[L1-QA-CA-]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[616840]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[2]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[220909]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[17]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[128]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[59]]>
+              </value>
+            </param>
+            <param index="8">
+              <value>
+                <![CDATA[1522, 1523, 4120, 4945, 3921, 3339, 1535, 5778, 1539, 3760, 4617, 6338, 3023]]>
+              </value>
+            </param>
+            <param index="9">
+              <value>
+                <![CDATA[1733996]]>
+              </value>
+            </param>
+            <param index="10">
+              <value>
+                <![CDATA[HUD Approval]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Executing Test for the Closing:-HUD Approval senario<br>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- runMptRefinanceTitleNEscrowTest -->
+        <test-method status="PASS" signature="runMptRefinanceTitleNEscrowTest(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.altisource.MPT_RefinanceTest.MptRefinanceTests@31610302]" name="runMptRefinanceTitleNEscrowTest" duration-ms="49976" started-at="2017-12-29T16:19:39Z" data-provider="createRefinanceTitleNEscrowTestData" finished-at="2017-12-29T16:20:29Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Closing:-Loan Package]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[L1-QA-CA-]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[616840]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[2]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[220909]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[17]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[128]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[59]]>
+              </value>
+            </param>
+            <param index="8">
+              <value>
+                <![CDATA[1522, 1523, 4120, 4945, 3921, 3339, 1535, 5778, 1539, 3760, 4617, 6338, 3023, 5799]]>
+              </value>
+            </param>
+            <param index="9">
+              <value>
+                <![CDATA[1733996]]>
+              </value>
+            </param>
+            <param index="10">
+              <value>
+                <![CDATA[Loan Package]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Executing Test for the Closing:-Loan Package senario<br>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- runMptRefinanceTitleNEscrowTest -->
+        <test-method status="PASS" signature="runMptRefinanceTitleNEscrowTest(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.altisource.MPT_RefinanceTest.MptRefinanceTests@31610302]" name="runMptRefinanceTitleNEscrowTest" duration-ms="51336" started-at="2017-12-29T16:20:29Z" data-provider="createRefinanceTitleNEscrowTestData" finished-at="2017-12-29T16:21:20Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Funding:-Awaiting signed docs]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[L1-QA-CA-]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[616840]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[2]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[220909]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[17]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[128]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[59]]>
+              </value>
+            </param>
+            <param index="8">
+              <value>
+                <![CDATA[1522, 1523, 4120, 4945, 3921, 3339, 1535, 5778, 1539, 3760, 4617, 6338, 3023, 5799, 3333]]>
+              </value>
+            </param>
+            <param index="9">
+              <value>
+                <![CDATA[1733996]]>
+              </value>
+            </param>
+            <param index="10">
+              <value>
+                <![CDATA[Awaiting signed docs]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Executing Test for the Funding:-Awaiting signed docs senario<br>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- runMptRefinanceTitleNEscrowTest -->
+        <test-method status="PASS" signature="runMptRefinanceTitleNEscrowTest(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.altisource.MPT_RefinanceTest.MptRefinanceTests@31610302]" name="runMptRefinanceTitleNEscrowTest" duration-ms="52889" started-at="2017-12-29T16:21:20Z" data-provider="createRefinanceTitleNEscrowTestData" finished-at="2017-12-29T16:22:13Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Funding:-Docs Uploaded]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[L1-QA-CA-]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[616840]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[2]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[220909]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[17]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[128]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[59]]>
+              </value>
+            </param>
+            <param index="8">
+              <value>
+                <![CDATA[1522, 1523, 4120, 4945, 3921, 3339, 1535, 5778, 1539, 3760, 4617, 6338, 3023, 5799, 3333, 3864]]>
+              </value>
+            </param>
+            <param index="9">
+              <value>
+                <![CDATA[1733996]]>
+              </value>
+            </param>
+            <param index="10">
+              <value>
+                <![CDATA[Docs Uploaded]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Executing Test for the Funding:-Docs Uploaded senario<br>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- runMptRefinanceTitleNEscrowTest -->
+        <test-method status="PASS" signature="runMptRefinanceTitleNEscrowTest(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.altisource.MPT_RefinanceTest.MptRefinanceTests@31610302]" name="runMptRefinanceTitleNEscrowTest" duration-ms="54144" started-at="2017-12-29T16:22:13Z" data-provider="createRefinanceTitleNEscrowTestData" finished-at="2017-12-29T16:23:07Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Funding:-Critical Funding Docs]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[L1-QA-CA-]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[616840]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[2]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[220909]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[17]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[128]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[59]]>
+              </value>
+            </param>
+            <param index="8">
+              <value>
+                <![CDATA[1522, 1523, 4120, 4945, 3921, 3339, 1535, 5778, 1539, 3760, 4617, 6338, 3023, 5799, 3333, 3864, 4112]]>
+              </value>
+            </param>
+            <param index="9">
+              <value>
+                <![CDATA[1733996]]>
+              </value>
+            </param>
+            <param index="10">
+              <value>
+                <![CDATA[Critical Funding Docs]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Executing Test for the Funding:-Critical Funding Docs senario<br>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- runMptRefinanceTitleNEscrowTest -->
+        <test-method status="PASS" signature="runMptRefinanceTitleNEscrowTest(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.altisource.MPT_RefinanceTest.MptRefinanceTests@31610302]" name="runMptRefinanceTitleNEscrowTest" duration-ms="55669" started-at="2017-12-29T16:23:07Z" data-provider="createRefinanceTitleNEscrowTestData" finished-at="2017-12-29T16:24:03Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Funding:-Lender Funds]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[L1-QA-CA-]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[616840]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[2]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[220909]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[17]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[128]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[59]]>
+              </value>
+            </param>
+            <param index="8">
+              <value>
+                <![CDATA[1522, 1523, 4120, 4945, 3921, 3339, 1535, 5778, 1539, 3760, 4617, 6338, 3023, 5799, 3333, 3864, 4112, 1548]]>
+              </value>
+            </param>
+            <param index="9">
+              <value>
+                <![CDATA[1733996]]>
+              </value>
+            </param>
+            <param index="10">
+              <value>
+                <![CDATA[Lender Funds]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Executing Test for the Funding:-Lender Funds senario<br>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- runMptRefinanceTitleNEscrowTest -->
+        <test-method status="PASS" signature="runMptRefinanceTitleNEscrowTest(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.altisource.MPT_RefinanceTest.MptRefinanceTests@31610302]" name="runMptRefinanceTitleNEscrowTest" duration-ms="57007" started-at="2017-12-29T16:24:03Z" data-provider="createRefinanceTitleNEscrowTestData" finished-at="2017-12-29T16:25:00Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Funding:-Disbursement Complete]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[L1-QA-CA-]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[616840]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[2]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[220909]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[17]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[128]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[59]]>
+              </value>
+            </param>
+            <param index="8">
+              <value>
+                <![CDATA[1522, 1523, 4120, 4945, 3921, 3339, 1535, 5778, 1539, 3760, 4617, 6338, 3023, 5799, 3333, 3864, 4112, 1548, 3761]]>
+              </value>
+            </param>
+            <param index="9">
+              <value>
+                <![CDATA[1733996]]>
+              </value>
+            </param>
+            <param index="10">
+              <value>
+                <![CDATA[Disbursement Complete]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Executing Test for the Funding:-Disbursement Complete senario<br>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- runMptRefinanceTitleNEscrowTest -->
+        <test-method status="PASS" signature="runMptRefinanceTitleNEscrowTest(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.altisource.MPT_RefinanceTest.MptRefinanceTests@31610302]" name="runMptRefinanceTitleNEscrowTest" duration-ms="58410" started-at="2017-12-29T16:25:00Z" data-provider="createRefinanceTitleNEscrowTestData" finished-at="2017-12-29T16:25:58Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Final Docs:-Final Docs Review]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[L1-QA-CA-]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[616840]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[2]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[220909]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[17]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[128]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[59]]>
+              </value>
+            </param>
+            <param index="8">
+              <value>
+                <![CDATA[1522, 1523, 4120, 4945, 3921, 3339, 1535, 5778, 1539, 3760, 4617, 6338, 3023, 5799, 3333, 3864, 4112, 1548, 3761, 3761]]>
+              </value>
+            </param>
+            <param index="9">
+              <value>
+                <![CDATA[1733996]]>
+              </value>
+            </param>
+            <param index="10">
+              <value>
+                <![CDATA[Final Docs Review]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Executing Test for the Final Docs:-Final Docs Review senario<br>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- runMptRefinanceTitleNEscrowTest -->
+        <test-method status="PASS" signature="runMptRefinanceTitleNEscrowTest(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.altisource.MPT_RefinanceTest.MptRefinanceTests@31610302]" name="runMptRefinanceTitleNEscrowTest" duration-ms="59904" started-at="2017-12-29T16:25:58Z" data-provider="createRefinanceTitleNEscrowTestData" finished-at="2017-12-29T16:26:58Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Final Docs:-Final CD]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[L1-QA-CA-]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[616840]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[2]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[220909]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[17]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[128]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[59]]>
+              </value>
+            </param>
+            <param index="8">
+              <value>
+                <![CDATA[1522, 1523, 4120, 4945, 3921, 3339, 1535, 5778, 1539, 3760, 4617, 6338, 3023, 5799, 3333, 3864, 4112, 1548, 3761, 3761, 6409]]>
+              </value>
+            </param>
+            <param index="9">
+              <value>
+                <![CDATA[1733996]]>
+              </value>
+            </param>
+            <param index="10">
+              <value>
+                <![CDATA[Final CD]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Executing Test for the Final Docs:-Final CD senario<br>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- runMptRefinanceTitleNEscrowTest -->
+        <test-method status="PASS" signature="runMptRefinanceTitleNEscrowTest(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.altisource.MPT_RefinanceTest.MptRefinanceTests@31610302]" name="runMptRefinanceTitleNEscrowTest" duration-ms="61597" started-at="2017-12-29T16:26:58Z" data-provider="createRefinanceTitleNEscrowTestData" finished-at="2017-12-29T16:27:59Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Final Docs:-Upload & Send Final Closing statement]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[L1-QA-CA-]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[616840]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[2]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[220909]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[17]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[128]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[59]]>
+              </value>
+            </param>
+            <param index="8">
+              <value>
+                <![CDATA[1522, 1523, 4120, 4945, 3921, 3339, 1535, 5778, 1539, 3760, 4617, 6338, 3023, 5799, 3333, 3864, 4112, 1548, 3761, 3761, 6409, 8573]]>
+              </value>
+            </param>
+            <param index="9">
+              <value>
+                <![CDATA[1733996]]>
+              </value>
+            </param>
+            <param index="10">
+              <value>
+                <![CDATA[Upload & Send Final Closing statement]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Executing Test for the Final Docs:-Upload & Send Final Closing statement senario<br>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- runMptRefinanceTitleNEscrowTest -->
+        <test-method status="PASS" signature="runMptRefinanceTitleNEscrowTest(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.altisource.MPT_RefinanceTest.MptRefinanceTests@31610302]" name="runMptRefinanceTitleNEscrowTest" duration-ms="62459" started-at="2017-12-29T16:27:59Z" data-provider="createRefinanceTitleNEscrowTestData" finished-at="2017-12-29T16:29:02Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Final Docs:-Update recording fees & generate Final Statement]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[L1-QA-CA-]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[616840]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[2]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[220909]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[17]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[128]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[59]]>
+              </value>
+            </param>
+            <param index="8">
+              <value>
+                <![CDATA[1522, 1523, 4120, 4945, 3921, 3339, 1535, 5778, 1539, 3760, 4617, 6338, 3023, 5799, 3333, 3864, 4112, 1548, 3761, 3761, 6409, 8573, 8874]]>
+              </value>
+            </param>
+            <param index="9">
+              <value>
+                <![CDATA[1733996]]>
+              </value>
+            </param>
+            <param index="10">
+              <value>
+                <![CDATA[Update recording fees & generate Final Statement]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Executing Test for the Final Docs:-Update recording fees & generate Final Statement senario<br>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- runMptRefinanceTitleNEscrowTest -->
+        <test-method status="PASS" signature="runMptRefinanceTitleNEscrowTest(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.altisource.MPT_RefinanceTest.MptRefinanceTests@31610302]" name="runMptRefinanceTitleNEscrowTest" duration-ms="63909" started-at="2017-12-29T16:29:02Z" data-provider="createRefinanceTitleNEscrowTestData" finished-at="2017-12-29T16:30:06Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Final Docs:-Release to Record]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[L1-QA-CA-]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[616840]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[2]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[220909]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[17]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[128]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[59]]>
+              </value>
+            </param>
+            <param index="8">
+              <value>
+                <![CDATA[1522, 1523, 4120, 4945, 3921, 3339, 1535, 5778, 1539, 3760, 4617, 6338, 3023, 5799, 3333, 3864, 4112, 1548, 3761, 3761, 6409, 8573, 8874, 3033]]>
+              </value>
+            </param>
+            <param index="9">
+              <value>
+                <![CDATA[1733996]]>
+              </value>
+            </param>
+            <param index="10">
+              <value>
+                <![CDATA[Release to Record]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Executing Test for the Final Docs:-Release to Record senario<br>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- runMptRefinanceTitleNEscrowTest -->
+        <test-method status="PASS" signature="runMptRefinanceTitleNEscrowTest(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.altisource.MPT_RefinanceTest.MptRefinanceTests@31610302]" name="runMptRefinanceTitleNEscrowTest" duration-ms="65294" started-at="2017-12-29T16:30:06Z" data-provider="createRefinanceTitleNEscrowTestData" finished-at="2017-12-29T16:31:11Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Final Docs:-Recording Confirmed]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[L1-QA-CA-]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[616840]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[2]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[220909]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[17]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[128]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[59]]>
+              </value>
+            </param>
+            <param index="8">
+              <value>
+                <![CDATA[1522, 1523, 4120, 4945, 3921, 3339, 1535, 5778, 1539, 3760, 4617, 6338, 3023, 5799, 3333, 3864, 4112, 1548, 3761, 3761, 6409, 8573, 8874, 3033, 7170]]>
+              </value>
+            </param>
+            <param index="9">
+              <value>
+                <![CDATA[1733996]]>
+              </value>
+            </param>
+            <param index="10">
+              <value>
+                <![CDATA[Recording Confirmed]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Executing Test for the Final Docs:-Recording Confirmed senario<br>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- runMptRefinanceTitleNEscrowTest -->
+        <test-method status="PASS" signature="runMptRefinanceTitleNEscrowTest(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.altisource.MPT_RefinanceTest.MptRefinanceTests@31610302]" name="runMptRefinanceTitleNEscrowTest" duration-ms="66707" started-at="2017-12-29T16:31:11Z" data-provider="createRefinanceTitleNEscrowTestData" finished-at="2017-12-29T16:32:18Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Final Docs:-Policy Distributed]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[L1-QA-CA-]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[616840]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[2]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[220909]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[17]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[128]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[59]]>
+              </value>
+            </param>
+            <param index="8">
+              <value>
+                <![CDATA[1522, 1523, 4120, 4945, 3921, 3339, 1535, 5778, 1539, 3760, 4617, 6338, 3023, 5799, 3333, 3864, 4112, 1548, 3761, 3761, 6409, 8573, 8874, 3033, 7170, 1557]]>
+              </value>
+            </param>
+            <param index="9">
+              <value>
+                <![CDATA[1733996]]>
+              </value>
+            </param>
+            <param index="10">
+              <value>
+                <![CDATA[Policy Distributed]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Executing Test for the Final Docs:-Policy Distributed senario<br>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- runMptRefinanceTitleNEscrowTest -->
+      </class> <!-- com.altisource.MPT_RefinanceTest.MptRefinanceTests -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

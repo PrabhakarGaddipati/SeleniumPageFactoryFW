@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+
+<!-- *********** testNG-Maven-Java-Selenium*********** -->
+<suite name = "MPT_Automation Suite" verbose="1">
+   <!-- <listeners>
+        <listener class-name="testNG.AnnotationTransformer"/>
+  </listeners> -->
+   
+   
+    <!-- MPT UI- Place Order -->
+   <test name = "MPT_UI_PlaceOrder">
+   	<groups>
+   		<define name="mandatory">
+   			<include name=""></include>
+   			<include name=""></include>
+   		</define>
+   	</groups>
+   		<classes>
+      		<class name="testcase.mpt.ui.PlaceOrder_tc"/>
+    	</classes>
+   </test>
+
+</suite>

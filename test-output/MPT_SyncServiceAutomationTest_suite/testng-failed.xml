@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [MPT_SyncServiceAutomationTest_suite]">
+  <parameter name="browser" value="Chrome"/>
+  <listeners>
+    <listener class-name="com.data.altisource.framework.ListenerClass"/>
+  </listeners>
+  <test name="TestName-MPT_SyncService(failed)" preserve-order="true">
+    <classes>
+      <class name="com.altisource.MPT_PurchaseTest.MptPurchaseTests">
+        <methods>
+          <include name="runMptPurchaseRecordFirstCashTest" invocation-numbers="0"/>
+        </methods>
+      </class> <!-- com.altisource.MPT_PurchaseTest.MptPurchaseTests -->
+      <class name="com.altisource.MPT_ReoTest.MptReoTests">
+        <methods>
+          <include name="setUpRestAssured"/>
+          <include name="runMptReoPTC_A_RecordFirstCashTest" invocation-numbers="0"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- com.altisource.MPT_ReoTest.MptReoTests -->
+      <class name="com.altisource.MPT_RefinanceTest.MptRefinanceTests">
+        <methods>
+          <include name="runMptRefinanceTitleNEscrowTest" invocation-numbers="0"/>
+          <include name="setUpRestAssured"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- com.altisource.MPT_RefinanceTest.MptRefinanceTests -->
+    </classes>
+  </test> <!-- TestName-MPT_SyncService(failed) -->
+</suite> <!-- Failed suite [MPT_SyncServiceAutomationTest_suite] -->

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [MPT_Automation Suite]">
+  <test name="MPT_UI_PlaceOrder(failed)" preserve-order="true">
+    <classes>
+      <class name="testcase.mpt.ui.PlaceOrder_tc">
+        <methods>
+          <include name="PO_OrderDetails"/>
+          <include name="PO_PropertyAdd"/>
+          <include name="PO_FileDetails"/>
+          <include name="setUp"/>
+          <include name="PO_YourCompany_Mdt"/>
+          <include name="PO_NavURL"/>
+          <include name="PO_PrimaryBuyerBrwr"/>
+          <include name="PO_YourCompany_Opt"/>
+        </methods>
+      </class> <!-- testcase.mpt.ui.PlaceOrder_tc -->
+    </classes>
+  </test> <!-- MPT_UI_PlaceOrder(failed) -->
+</suite> <!-- Failed suite [MPT_Automation Suite] -->
