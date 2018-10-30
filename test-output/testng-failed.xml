@@ -5,7 +5,6 @@
     <classes>
       <class name="com.mpt.ui.testcase.HomePageTest">
         <methods>
-          <include name="validateTitle"/>
           <include name="setUp"/>
           <include name="validateLogo"/>
           <include name="tearDown"/>

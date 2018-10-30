@@ -11,6 +11,7 @@ import org.testng.annotations.Test;
 
 import com.mpt.base.TestBase;
 import com.mpt.ui.pages.HomePage;
+import com.util.TestUtil;
 
 /**
  * @author beheraav
@@ -30,15 +31,20 @@ public class HomePageTest extends TestBase{
 		HomePage =new HomePage();
 	}
 	
-	@Test(priority=1,description="Check logo")
-	public void validateLogo(){
+	@Test(priority=1,description="Check MPT logo")
+	public void checkLogo() throws InterruptedException{
+		TestUtil.FlWait(HomePage.MptLogo, driver);
 		boolean vlogo=HomePage.verifyLogo();
 		assertEquals(vlogo, true);
 	}
-	@Test(priority=2,description="check title")
+	@Test(priority=2,description="Check Homepage title")
 	public void validateTitle(){
-		String title=HomePage.verifyHomePageTitle();
+		String title=driver.getTitle();
 		assertEquals(title, "Premium Title");
+	}
+	@Test(priority=3,description="Check Contact us Phone and Email")
+	public void validateContactUsInfo(){
+		
 	}
 	
 	@AfterMethod
