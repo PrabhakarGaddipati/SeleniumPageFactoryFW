@@ -1,6 +1,4 @@
-# SeleniumPageFactoryFW
-Framework built with reference to Naveen's youtube channel:
-https://www.youtube.com/user/naveenanimation20
+# SeleniumPageFactory model framework
 
 This framework is based on POM(Page object model) aka Page chaining model.
 It has also page factory model implemented to initialize page objects and methods.
@@ -14,4 +12,6 @@ Framework features and technologies used:
 6- testNG
 7- log4J
 8- Jenkins
-9- 
+9- Extent Report
+
+Sample website has been used to test the framework functionalities.
